@@ -125,7 +125,7 @@
               { "trigger": "THREE.IcosahedronGeometry", "contents": "THREE.IcosahedronGeometry( radius, detail );$0" },
               { "trigger": "THREE.LatheGeometry", "contents": "THREE.LatheGeometry( points, steps, angle );$0" },
               { "trigger": "THREE.OctahedronGeometry", "contents": "THREE.OctahedronGeometry( radius, detail );$0" },
-              { "trigger": "THREE.PlaneGeometry", "contents": "THREE.PlaneGeometry( width, depth, segmentsWidth, segmentsDepth );$0" },
+              { "trigger": "THREE.PlaneGeometry", "contents": "THREE.PlaneGeometry( ${1:width}, ${2:depth}, ${3:segmentsWidth}, ${4:segmentsDepth} );$0" },
               { "trigger": "THREE.PolyhedronGeometry", "contents": "THREE.PolyhedronGeometry( vertices, faces, radius, detail );$0" },
               { "trigger": "THREE.SphereGeometry", "contents": "THREE.SphereGeometry( radius, segmentsWidth, segmentsHeight, phiStart, phiLength, thetaStart, thetaLength );$0" },
               { "trigger": "THREE.TetrahedronGeometry", "contents": "THREE.TetrahedronGeometry( radius, detail );$0" },
