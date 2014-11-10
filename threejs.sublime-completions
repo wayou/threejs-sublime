@@ -47,7 +47,7 @@
               { "trigger": "THREE.MeshBasicMaterial", "contents": "THREE.MeshBasicMaterial( ${1:parameters} );$0" },
               { "trigger": "THREE.MeshDepthMaterial", "contents": "THREE.MeshDepthMaterial( ${1:parameters} );$0" },
               { "trigger": "THREE.MeshFaceMaterial", "contents": "THREE.MeshFaceMaterial( ${1:parameters} );$0" },
-              { "trigger": "THREE.MeshLambertMaterial", "contents": "THREE.MeshLambertMaterial( ${1:parameters} );$0" },
+              { "trigger": "THREE.MeshLambertMaterial", "contents": "THREE.MeshLambertMaterial( {color: ${1:0xffffff}} );$0" },
               { "trigger": "THREE.MeshNormalMaterial", "contents": "THREE.MeshNormalMaterial( ${1:parameters} );$0" },
               { "trigger": "THREE.MeshPhongMaterial", "contents": "THREE.MeshPhongMaterial( ${1:parameters} );$0" },
               { "trigger": "THREE.ParticleBasicMaterial", "contents": "THREE.ParticleBasicMaterial( ${1:parameters} );$0" },
