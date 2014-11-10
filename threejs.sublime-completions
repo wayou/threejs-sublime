@@ -1,6 +1,6 @@
 {
         "scope": "source.js,source.js.embedded.html,source.coffee",
-        "version": "r49",
+        "version": "r69",
         "completions":
         [
               "THREE",
@@ -83,7 +83,7 @@
               { "trigger": "THREE.RenderableVertex", "contents": "THREE.RenderableVertex();$0" },
 
               { "trigger": "THREE.Fog", "contents": "THREE.Fog( ${1:hex}, ${2:near}, ${3:far} );$0" },
-              
+
               { "trigger": "THREE.FogExp2", "contents": "THREE.FogExp2( ${1:hex}, ${2:density} );$0" },
 
               { "trigger": "THREE.Scene", "contents": "THREE.Scene();$0" },
